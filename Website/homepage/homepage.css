@@ -1,7 +1,16 @@
 #banner{
-  width:100%
+  width:100%;
+  position:absolute;
 }
 
 #heading{
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 10px;
+  text-align: right;
   position: absolute;
+  top:50%;
+  left: 66%;
+  color: #E5E4E2;
+  filter: drop-shadow(5px 5px 5px black);
 }
