@@ -12,6 +12,11 @@
   left: 66%;
   color: #E5E4E2;
   filter: drop-shadow(5px 5px 5px black);
+  position:
+}
+@@ -13,3 +13,16 @@
+  color: #E5E4E2;
+  filter: drop-shadow(5px 5px 5px black);
 }
 
 .site-header {
