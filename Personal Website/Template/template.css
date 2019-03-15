@@ -16,6 +16,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+body{
+  font-family: "Scope One";
+}
 #logo{
   width: 30px;
   height: 30px;
@@ -26,6 +29,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   color:white;
   font-size:28px;
 }
+
 
 .site-header {
   background-color: rgba(0, 0, 0, .85);
