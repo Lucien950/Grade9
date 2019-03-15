@@ -41,7 +41,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
+}
 
-  .custom-toggler.navbar-toggler {
-      border-color: rgb(255,102,203);
-  }
+.home-inner{
+  background-image: url("../images/Banner.jpg");
+}
