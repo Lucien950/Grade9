@@ -16,9 +16,40 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+.bg-dark1{
+  background-color: #1A1A1D;
+}
+
+.progress{
+  position: fixed;
+  bottom:0px;
+  height: 10px;
+  background-color: white;
+}
+
 body{
   font-family: "Scope One";
 }
+
+/*Scrollbar*/
+body::-webkit-scrollbar{
+	width: 12px;
+	background-color: rgba(255,255,255,1);
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: #1A1A1D;
+}
+
+body::-webkit-scrollbar-thumb:active{
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(26,26,29,0.5);
+}
+
 #logo{
   width: 30px;
   height: 30px;
