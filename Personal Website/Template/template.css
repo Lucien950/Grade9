@@ -34,12 +34,12 @@ body{
 /*Scrollbar*/
 body::-webkit-scrollbar{
 	width: 12px;
-	background-color: rgba(255,255,255,1);
+  background-color: #1A1A1D;
 }
 
 
 body::-webkit-scrollbar-thumb{
-  background-color: #1A1A1D;
+	background-color: rgb(214, 214, 214,1);
 }
 
 body::-webkit-scrollbar-thumb:active{
@@ -105,5 +105,5 @@ body::-webkit-scrollbar-thumb:hover{
 
 .home-inner{
   background-image: url("../images/Banner.jpg");
-  width:100%;
+  width:5%;
 }
