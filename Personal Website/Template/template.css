@@ -40,6 +40,8 @@ body{
   font-size: 25px;
   color: rgba(255, 255, 255, .60);
   transition: ease-in-out color .20s;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .icon-footer a:hover{
@@ -48,6 +50,10 @@ body{
 
 .footer-text{
   color:white;
+}
+
+.footer-text h4{
+  padding-top: 7px;
 }
 
 .site-header {
