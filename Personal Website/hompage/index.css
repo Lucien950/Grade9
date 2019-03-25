@@ -1,0 +1,112 @@
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+.bg-dark1{
+  background-color: #1A1A1D;
+}
+
+.progress{
+  position: fixed;
+  bottom:0px;
+  height: 10px;
+  background-color: white;
+}
+
+body{
+  font-family: "Scope One";
+}
+
+/*Scrollbar*/
+body::-webkit-scrollbar{
+	width: 12px;
+  background-color: #1A1A1D;
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(26,26,29,0.5);
+}
+
+body::-webkit-scrollbar-thumb:active{
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+	background-color: rgb(214, 214, 214,1);
+}
+
+#logo{
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right:30px;
+}
+
+#logo-footer{
+  width: 50px;
+  height: 50px;
+}
+
+#navIcon{
+  color:white;
+  font-size:28px;
+}
+
+.icon-footer a{
+  font-size: 25px;
+  color: rgba(255, 255, 255, .60);
+  transition: ease-in-out color .20s;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.icon-footer a:hover{
+  color: #fff;
+}
+
+.footer-text{
+  color:white;
+}
+
+.footer-text h4{
+  padding-top: 7px;
+}
+
+.nav-item{
+  margin: 0px;
+}
+.site-header {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  margin: 0px;
+}
+.site-header a {
+  color: #999;
+  font-size: 15px;
+  font-family: "Poppins";
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-inner{
+  background-image: url("../images/Banner.jpg");
+  width:5%;
+}
