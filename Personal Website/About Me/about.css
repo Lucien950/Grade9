@@ -110,3 +110,10 @@ body::-webkit-scrollbar-thumb:hover{
   background-image: url("../images/Banner.jpg");
   width:5%;
 }
+
+.carousel-slide{
+  height: 650px;
+}
+.carousel-inner{
+  height: 650px;
+}
