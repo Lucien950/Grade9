@@ -39,7 +39,7 @@ body::-webkit-scrollbar{
 
 
 body::-webkit-scrollbar-thumb{
-  background-color: rgb(26,26,29,0.5);
+  background-color: #7f7f7f;
 }
 
 body::-webkit-scrollbar-thumb:active{
@@ -114,6 +114,6 @@ body::-webkit-scrollbar-thumb:hover{
 .carousel-slide{
   height: 650px;
 }
-.carousel-inner{
+.carousel-item{
   height: 650px;
 }
