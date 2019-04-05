@@ -110,3 +110,7 @@ body::-webkit-scrollbar-thumb:hover{
   background-image: url("../images/Banner.jpg");
   width:5%;
 }
+
+#banner{
+  margin-top: 10px;
+}
