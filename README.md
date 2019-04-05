@@ -5,3 +5,6 @@
 
 ## What will I get for my work?
 4+ every single time. :kissing_cat:
+What I did| Bad Quality | Good Quality
+------------ | -------------
+What I deserve| 4+ | 4+
