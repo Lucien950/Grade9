@@ -6,15 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>About Me</title>
 
-		<!--Bootstrap CSS-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 		<!--CSS Files-->
 		<link rel="stylesheet" href="about.css">
-		<link rel="stylesheet" href="fixed.css">
-
+		<link rel="stylesheet" href="../Template/template.css">
+		<link rel="stylesheet" href="../Template/fixed.css">
 		<!--Javascript Files-->
-		<script src="about.js"></script>
+		<script src="../Template/template.js"></script>
+
+		<!--Libraries-->
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!--Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -30,7 +31,6 @@
 	</head>
 
 	<body data-spy = "scroll" data-target = "#navbarResponsive">
-		<div class = "progress"></div>
 		<!--NavBar-->
 		<nav class = "navbar navbar-expand-md bg-dark1 navbar-dark fixed-top">
 				<a class = "navbar-brand" href = "#">
@@ -53,6 +53,7 @@
 		<!--Banner-->
 		<img src = "https://static1.squarespace.com/static/58efd265bf629a9dbf53c01b/t/59f35ef3652deaab953145cf/1509121788683/A+Few+Facts+About+Me.png" style = "width:100%;"></img>
 
+		<!--Image Gallery-->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,15 +87,31 @@
 			</a>
 		</div>
 
-		<div class = "container-fluid" id = "row1">
-			<div class = "row d-flex justify-content-around">
-				<div class = "col">
+		<!--Cards-->
+		<div class = "container-fluid">
+			<div class = "row d-flex justify-content-around" id = "row1">
+				<div class = "col-md">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor, eros nec volutpat pretium, arcu velit rhoncus nulla, a interdum diam purus nec eros. Donec quam enim, pulvinar ut ultricies aliquam, bibendum non augue. Phasellus sed arcu lacinia, scelerisque lectus et, placerat nunc. Aliquam posuere, purus quis maximus congue, est ex elementum elit, in condimentum dui lorem eu est. Cras venenatis lacus sed justo molestie congue. Mauris consectetur aliquet turpis vel sodales. Aenean volutpat ipsum sed neque rutrum venenatis. Nulla facilisi. Vestibulum viverra dui sem, at pharetra metus sollicitudin sit amet.
+						I have no talent!!!
+					</p>
+				</div>
+				<div class = "col-md">
+					<p>
+						but still....
+					</p>
+				</div>
+				<div class = "col-md">
+					<p>
+						...edwin deserves 4+
 					</p>
 				</div>
 			</div>
 		</div>
+
+		<!--Progress Bar-->
+		<div id = "progress"></div>
+
+		<!--Footer-->
 		<footer>
 			<div class="d-flex flex-row justify-content-center bg-dark1">
 
@@ -110,7 +127,7 @@
 
 					<!--Contact Section-->
 					<h4>Contact</h4>
-					<div class = "container d-flex flex-row justify-content-center icon-footer">
+					<div class = "container d-flex flex-row justify-content-around icon-footer">
 						<a href = "https://www.instagram.com/mredwin6969" target="_blank">
 							<i class="fab fa-instagram"></i>
 						</a>

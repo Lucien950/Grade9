@@ -20,7 +20,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   background-color: #1A1A1D;
 }
 
-.progress{
+#progress{
   position: fixed;
   bottom:0px;
   height: 10px;
@@ -37,7 +37,6 @@ body::-webkit-scrollbar{
   background-color: #1A1A1D;
 }
 
-
 body::-webkit-scrollbar-thumb{
   background-color: rgb(26,26,29,0.5);
 }
@@ -50,23 +49,24 @@ body::-webkit-scrollbar-thumb:hover{
 	background-color: rgb(214, 214, 214,1);
 }
 
-#logo{
-  width: 30px;
-  height: 30px;
-  margin-left: 50px;
-  margin-right:30px;
+/*Site Header*/
+.site-header {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  margin: 0px;
+}
+.site-header a {
+  color: #999;
+  font-size: 15px;
+  font-family: "Poppins";
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
-#logo-footer{
-  width: 50px;
-  height: 50px;
-}
-
-#navIcon{
-  color:white;
-  font-size:28px;
-}
-
+/*Footer Stuff*/
 .icon-footer a{
   font-size: 25px;
   color: rgba(255, 255, 255, .60);
@@ -87,26 +87,20 @@ body::-webkit-scrollbar-thumb:hover{
   padding-top: 7px;
 }
 
-.nav-item{
-  margin: 0px;
-}
-.site-header {
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-  margin: 0px;
-}
-.site-header a {
-  color: #999;
-  font-size: 15px;
-  font-family: "Poppins";
-  transition: ease-in-out color .15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
+/*IDS*/
+#logo{
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  margin-right:30px;
 }
 
-.home-inner{
-  background-image: url("../images/Banner.jpg");
-  width:5%;
+#logo-footer{
+  width: 50px;
+  height: 50px;
+}
+
+#navIcon{
+  color:white;
+  font-size:28px;
 }
