@@ -104,3 +104,15 @@ body::-webkit-scrollbar-thumb:hover{
   color:white;
   font-size:28px;
 }
+
+.my-transition-enter {
+  opacity: 0;
+}
+
+.my-transition-enter-active {
+  transition: opacity 450ms ease;
+}
+
+.my-transition-enter-to {
+  opacity: 1;
+}
