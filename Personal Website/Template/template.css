@@ -20,10 +20,14 @@ Extra (xl) large devices (large desktops, 1200px and up)
   background-color: #1A1A1D;
 }
 
-#progress{
+.progress{
   position: fixed;
   bottom:0px;
-  height: 10px;
+  height: 2px;
+  width: 100%;
+  background-color: #1A1A1D;
+}
+.progress-bar{
   background-color: white;
 }
 
