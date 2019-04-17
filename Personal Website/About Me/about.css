@@ -8,3 +8,11 @@
 #row1 div p{
     text-align: center;
 }
+
+.progressIcon{
+  font-size: 30px;
+}
+
+.learn-progress{
+  width: 50%;
+}
