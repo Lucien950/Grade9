@@ -14,5 +14,14 @@
 }
 
 .learn-progress{
-  width: 50%;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.skills-container{
+  border:solid;
+  padding: 30px;
+}
+.skill-container div{
+  margin:10px;
 }
