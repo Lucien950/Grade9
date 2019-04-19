@@ -6,7 +6,7 @@
 }
 
 #row1 div p{
-    text-align: center;
+  text-align: center;
 }
 
 .progressIcon{
@@ -14,14 +14,16 @@
 }
 
 .learn-progress{
-  width: 200px;
+  width: 300px;
   margin-left: 10px;
 }
 
 .skills-container{
-  border:solid;
   padding: 30px;
 }
-.skill-container div{
-  margin:10px;
+.skills-container h3{
+  margin-bottom: 20px;
+}
+#block{
+  margin: 10px;
 }
