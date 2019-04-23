@@ -2,19 +2,17 @@
 <html lang="en" dir="ltr">
 
 	<head>
+		<!--Data-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Template</title>
+		<title>About Me</title>
+
+		<!--Libraries-->
+		<!--JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-		<!--CSS Files-->
-		<link rel="stylesheet" href="../template/template.css">
-		<link rel="stylesheet" href="../template/fixed.css">
-
-		<!--Javascript Files-->
-		<script src="../template/template.js"></script>
 
 		<!--Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -27,6 +25,14 @@
 
 		<!--Icons-->
 		<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+
+		<!--My Files-->
+		<!--CSS Files-->
+		<link rel="stylesheet" href="music.css">
+		<link rel="stylesheet" href="../Template/template.css">
+		<link rel="stylesheet" href="../Template/fixed.css">
+		<!--Javascript Files-->
+		<script src="../Template/template.js"></script>
 	</head>
 
 	<body data-spy = "scroll" data-target = "#navbarResponsive">
@@ -53,16 +59,26 @@
 			</nav>
 
 		<!--Banner-->
-		<img src = "../images/musicbanner.jpg" style = "width:100%;"></img>
+		<img src = "../images/musicbanner.jpg" style = "width:100%;margin-top:56px;"></img>
 
 		<!--Cards-->
 		<div class = "container-fluid">
-			<div class = "row d-flex justify-content-around">
-				<div class = "col-md">
-					<iframe src="https://open.spotify.com/embed/user/lucien950/playlist/6EZ4iKgZEmEcmY8sAeTKad&theme=white" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<div class = "card-1 row">
+				<iframe src="https://open.spotify.com/embed/user/lucien950/playlist/6EZ4iKgZEmEcmY8sAeTKad&theme=white" width="50%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class = "col-lg"></iframe>
+				<div class = "col-lg">
+					<h1>My Playlist</h1>
+					<p>
+						This is my Playlist
+					</p>
 				</div>
-				<div class = "col-md">
-					<iframe src="https://open.spotify.com/embed/user/barmymouse6/playlist/726tLi5fnIbvhyd3EVpH1b" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			</div>
+			<div class = "rh card-1 row">
+				<iframe src="https://open.spotify.com/embed/user/lucien950/playlist/6EZ4iKgZEmEcmY8sAeTKad&theme=white" width="50%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class = "col-lg"></iframe>
+				<div class = "col-lg">
+					<h1>Daniel's Playlist</h1>
+					<p>
+						This is not my Playlist
+					</p>
 				</div>
 			</div>
 		</div>
