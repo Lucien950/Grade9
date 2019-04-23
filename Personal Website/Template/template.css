@@ -42,7 +42,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: rgb(26,26,29,0.5);
+  background-color: rgb(61, 61, 68 ,0.5);
 }
 
 body::-webkit-scrollbar-thumb:active{
