@@ -53,6 +53,7 @@
 					<a href = "#" class = "nav-link">Home</a>
 					<a href = "../About Me/about.html" class = "nav-link">About Me</a>
 					<a href = "../music/music.html" class = "nav-link">My Music</a>
+					<a href = "../pictures/pictures.html" class = "nav-link">Pictures</a>
 				</div>
 			</div>
 		</nav>
@@ -60,10 +61,9 @@
 		<!--Banner-->
 		<img src = "../images/Banner.jpg" style = "width:100%;" id = "banner"></img>
 
-		<<!--Audio--></!--Audio-->
+		<!--Audio-->
 		<audio id="myAudio">
 		  <source src="bruh.mp3" type="audio/mpeg">
-		  Your browser does not support the audio element.
 		</audio>
 		<button onclick="playAudio()" type="button">Play Audio</button>
 		<script>
@@ -71,10 +71,6 @@
 
 			function playAudio() {
 			  x.play();
-			}
-
-			function pauseAudio() {
-			  x.pause();
 			}
 			</script>
 
