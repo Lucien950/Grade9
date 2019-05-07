@@ -2,6 +2,7 @@
 
 ## What will you find here?
 * Dreamweaver
+* Premiere Pro
 
 ## What will I get for my work?
 4+ every single time. :kissing_cat:
